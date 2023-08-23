@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="63aa545e4730b5107ec50d45d36d43ad" label="Autos" max_length="40" name="x_1112736_vroomvro_autos" type="collection">
+        <element label="Kennzeichen" max_length="40" name="kennzeichen" type="string"/>
+    </element>
+</database>
