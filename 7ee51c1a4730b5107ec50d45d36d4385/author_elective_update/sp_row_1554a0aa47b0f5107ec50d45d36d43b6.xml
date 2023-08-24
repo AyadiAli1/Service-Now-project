@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="VV_Homepage - Container 1">11a8dce64770f5107ec50d45d36d43c5</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-08-24 12:07:10</sys_created_on>
+        <sys_id>1554a0aa47b0f5107ec50d45d36d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+        <sys_update_name>sp_row_1554a0aa47b0f5107ec50d45d36d43b6</sys_update_name>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-08-24 12:07:10</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_row_1554a0aa47b0f5107ec50d45d36d43b6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="VV_Homepage - Container 1">11a8dce64770f5107ec50d45d36d43c5</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>lisa</sys_created_by><sys_created_on>2023-08-24 12:07:10</sys_created_on><sys_id>1554a0aa47b0f5107ec50d45d36d43b6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package><sys_policy/><sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope><sys_update_name>sp_row_1554a0aa47b0f5107ec50d45d36d43b6</sys_update_name><sys_updated_by>lisa</sys_updated_by><sys_updated_on>2023-08-24 12:07:10</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>-1505763032</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>e56750a64770f5107ec50d45d36d431d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-08-24 12:07:10</sys_created_on>
+        <sys_id>5154e8aa47b0f5107ec50d45d36d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a2770fd1d0000001</sys_recorded_at>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-08-24 12:07:10</sys_updated_on>
+        <type>Row</type>
+        <update_guid>1d54a0aa41b0f510965f67ee526bc4b7</update_guid>
+        <update_guid_history>1d54a0aa41b0f510965f67ee526bc4b7:-1505763032</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">7474ecaa47b0f5107ec50d45d36d4305</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-08-24 12:07:41</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>0cf01e536b55466cb4b6131f88de0361</sys_id>
+        <sys_metadata>1554a0aa47b0f5107ec50d45d36d43b6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+        <sys_scope_delete display_value="">0883df704d6747cd9d980f39716ff8d1</sys_scope_delete>
+        <sys_update_name>sp_row_1554a0aa47b0f5107ec50d45d36d43b6</sys_update_name>
+        <sys_update_version display_value="sp_row_1554a0aa47b0f5107ec50d45d36d43b6">5154e8aa47b0f5107ec50d45d36d435e</sys_update_version>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-08-24 12:07:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

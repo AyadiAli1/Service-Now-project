@@ -15,45 +15,5 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-08-24 09:47:03</sys_updated_on>
         </sys_choice_set>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>role</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Mieter</label>
-            <language>en</language>
-            <name>x_1112736_vroomvro_user</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-24 09:47:21</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b844ccea47fcb5107ec50d45d36d43cc</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-24 09:47:24</sys_updated_on>
-            <value>mieter</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>role</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Vermieter</label>
-            <language>en</language>
-            <name>x_1112736_vroomvro_user</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-24 09:47:03</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>413408ea47fcb5107ec50d45d36d4377</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-24 09:47:16</sys_updated_on>
-            <value>vermieter</value>
-        </sys_choice>
     </sys_choice>
 </record_update>

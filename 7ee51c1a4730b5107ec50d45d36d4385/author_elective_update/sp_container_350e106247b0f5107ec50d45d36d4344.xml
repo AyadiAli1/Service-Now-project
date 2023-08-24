@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>VV_Login - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="vv_login">a83814e64770f5107ec50d45d36d4300</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-08-24 11:39:37</sys_created_on>
+        <sys_id>350e106247b0f5107ec50d45d36d4344</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>VV_Login - Container 2</sys_name>
+        <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+        <sys_update_name>sp_container_350e106247b0f5107ec50d45d36d4344</sys_update_name>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-08-24 12:01:53</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_container_350e106247b0f5107ec50d45d36d4344</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>VV_Login - Container 2</name><order>2</order><sp_page display_value="vv_login">a83814e64770f5107ec50d45d36d4300</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>alice</sys_created_by><sys_created_on>2023-08-24 11:39:37</sys_created_on><sys_id>350e106247b0f5107ec50d45d36d4344</sys_id><sys_mod_count>4</sys_mod_count><sys_name>VV_Login - Container 2</sys_name><sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package><sys_policy/><sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope><sys_update_name>sp_container_350e106247b0f5107ec50d45d36d4344</sys_update_name><sys_updated_by>alice</sys_updated_by><sys_updated_on>2023-08-24 12:01:53</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1657175897</payload_hash>
+        <record_name>VV_Login - Container 2</record_name>
+        <reverted_from/>
+        <source>e56750a64770f5107ec50d45d36d431d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-08-24 12:01:53</sys_created_on>
+        <sys_id>3713282a47b0f5107ec50d45d36d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a276c24b90000001</sys_recorded_at>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-08-24 12:01:53</sys_updated_on>
+        <type>Container</type>
+        <update_guid>3f13282ab5b0f5109e2b6f25abea7f3b</update_guid>
+        <update_guid_history>3f13282ab5b0f5109e2b6f25abea7f3b:1657175897,2e13e82a04b0f5100297c15a94b0aa28:402405976,2f002826b6b0f510506a45b6fd483253:-852363945,2d1ed062dab0f5107177e4b8bb321062:402405976,390e1062ceb0f510858862c4aa200745:1657175897</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="VV_Login - Container 2">2c23a82a47b0f5107ec50d45d36d4313</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-08-24 12:01:56</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>44222d90f0824c508c519d98dcab41a4</sys_id>
+        <sys_metadata>350e106247b0f5107ec50d45d36d4344</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VV_Login - Container 2</sys_name>
+        <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+        <sys_scope_delete display_value="">0883df704d6747cd9d980f39716ff8d1</sys_scope_delete>
+        <sys_update_name>sp_container_350e106247b0f5107ec50d45d36d4344</sys_update_name>
+        <sys_update_version display_value="sp_container_350e106247b0f5107ec50d45d36d4344">3713282a47b0f5107ec50d45d36d433c</sys_update_version>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-08-24 12:01:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

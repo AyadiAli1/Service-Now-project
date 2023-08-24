@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="verfugbar_von" label="verfügbar von" language="en" table="x_1112736_vroomvro_autos">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>verfugbar_von</element>
+            <help/>
+            <hint/>
+            <label>verfügbar von</label>
+            <language>en</language>
+            <name>x_1112736_vroomvro_autos</name>
+            <plural>verfügbar vons</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>leonie</sys_created_by>
+            <sys_created_on>2023-08-24 13:47:09</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>verfügbar von</sys_name>
+            <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+            <sys_update_name>sys_documentation_x_1112736_vroomvro_autos_verfugbar_von_en</sys_update_name>
+            <sys_updated_by>leonie</sys_updated_by>
+            <sys_updated_on>2023-08-24 13:47:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

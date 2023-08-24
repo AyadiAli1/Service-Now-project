@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="54feeb5e477cb5107ec50d45d36d43e0" label="Buchung" max_length="40" name="x_1112736_vroomvro_buchung" type="collection">
-        <element label="Car ID" max_length="32" name="car_id" reference="x_1112736_vroomvro_autos" type="reference"/>
-        <element label="Final Costs" max_length="40" name="final_costs" type="integer"/>
-        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="integer" use_dynamic_default="true"/>
-        <element choice="1" default="1" label="State" max_length="40" name="state" type="string">
+        <element label="Car" max_length="32" name="car_id" reference="x_1112736_vroomvro_autos" reference_qual="javascript: &quot;verfugbar_von&lt;=javascript:gs.dateGenerate('&quot;+current.time_start+&quot;','start')^verfugbar_bis&gt;=javascript:gs.dateGenerate('&quot;+current.time_end+&quot;','end')&quot;" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Final Costs" max_length="40" name="final_costs" read_only="true" type="integer"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element choice="1" default="1" label="State" max_length="40" name="state" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Approved" value="3"/>
                 <element inactive_on_update="false" label="Booked" value="10"/>
@@ -13,9 +13,9 @@
             </choice>
         </element>
         <element label="Timestamp" max_length="40" name="timestamp" type="glide_date_time"/>
-        <element label="Time End" max_length="40" name="time_end" type="glide_date_time"/>
-        <element label="Time Start" max_length="40" name="time_start" type="glide_date_time"/>
-        <element label="User ID" max_length="32" name="user_id" reference="x_1112736_vroomvro_user" type="reference"/>
+        <element label="Time End" max_length="40" name="time_end" type="glide_date"/>
+        <element label="Time Start" max_length="40" name="time_start" type="glide_date"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User ID" max_length="32" name="user_id" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <index name="index">
             <element name="car_id"/>
         </index>

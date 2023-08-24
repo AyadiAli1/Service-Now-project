@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="b">0b7f335647fcb5107ec50d45d36d438b</application>
+        <application display_value="Vroom_Menu_mobile">0b7f335647fcb5107ec50d45d36d438b</application>
         <filter/>
         <name>Buchungs</name>
         <order/>

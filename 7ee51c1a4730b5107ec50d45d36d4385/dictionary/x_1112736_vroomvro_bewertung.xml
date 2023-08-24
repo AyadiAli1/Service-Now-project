@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6719582a4770f5107ec50d45d36d4391" label="Bewertung" max_length="40" name="x_1112736_vroomvro_bewertung" type="collection">
+        <element label="Owner ID" max_length="32" name="owner_id" reference="sys_user" type="reference"/>
+        <element label="Rating" mandatory="true" max_length="40" name="rating" type="integer"/>
+        <element label="Rating text" max_length="40" name="rating_text" type="string"/>
+        <element label="Renter ID" max_length="32" name="renter_id" reference="sys_user" type="reference"/>
+        <element label="Timestamp" max_length="40" name="timestamp" type="glide_time"/>
+        <index name="index">
+            <element name="owner_id"/>
+        </index>
+        <index name="index2">
+            <element name="renter_id"/>
+        </index>
+    </element>
+</database>
