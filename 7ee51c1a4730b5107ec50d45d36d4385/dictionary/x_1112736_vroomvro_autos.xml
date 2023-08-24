@@ -1,17 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="63aa545e4730b5107ec50d45d36d43ad" label="Auto" max_length="40" name="x_1112736_vroomvro_autos" type="collection">
-        <element label="Brand" mandatory="true" max_length="40" name="brand" type="string"/>
-        <element label="Color" mandatory="true" max_length="40" name="color" type="string"/>
-        <element label="Const year" mandatory="true" max_length="40" name="const_year" type="integer"/>
-        <element label="Fuel" mandatory="true" max_length="40" name="fuel" type="string"/>
-        <element label="number_plate" mandatory="true" max_length="40" name="kennzeichen" type="string"/>
-        <element label="Km number" mandatory="true" max_length="40" name="km_number" type="float"/>
-        <element display="true" label="Model" mandatory="true" max_length="40" name="model" type="string"/>
-        <element label="Picture" max_length="40" name="picture" type="user_image"/>
-        <element label="Seat number" mandatory="true" max_length="40" name="seat_number" type="integer"/>
-        <element label="Transmission" mandatory="true" max_length="40" name="transmission" type="string"/>
-        <element label="Type" mandatory="true" max_length="40" name="type" type="string"/>
-        <element label="verfügbar bis" max_length="40" name="verfugbar_bis" type="glide_date"/>
-        <element label="verfügbar von" max_length="40" name="verfugbar_von" type="glide_date"/>
+        <element label="Marke" mandatory="true" max_length="40" name="brand" type="string"/>
+        <element label="Farbe" mandatory="true" max_length="40" name="color" type="string"/>
+        <element label="Modelljahr" mandatory="true" max_length="40" name="const_year" type="integer"/>
+        <element choice="1" label="Kraftstoff" mandatory="true" max_length="40" name="fuel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Benzin" sequence="1" value="benzin"/>
+                <element inactive_on_update="false" label="Diesel" sequence="2" value="diesel"/>
+                <element inactive_on_update="false" label="Elektro" sequence="3" value="elektro"/>
+            </choice>
+        </element>
+        <element label="Kaution" max_length="40" name="kaution" type="float"/>
+        <element label="Kennzeichen" mandatory="true" max_length="40" name="kennzeichen" type="string"/>
+        <element label="Gefahrene Km" mandatory="true" max_length="40" name="km_number" type="float"/>
+        <element display="true" label="Modell" mandatory="true" max_length="40" name="model" type="string"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Owner_ID" max_length="32" name="owner_id" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Bild" max_length="40" name="picture" type="user_image"/>
+        <element label="Preis pro Tag" max_length="40" name="preis_pro_tag" type="float"/>
+        <element label="Anzahl Sitze" mandatory="true" max_length="40" name="seat_number" type="integer"/>
+        <element choice="1" label="Getriebetyp" mandatory="true" max_length="40" name="transmission" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Schaltgetriebe" sequence="1" value="schaltgetriebe"/>
+                <element inactive_on_update="false" label="Automatik" sequence="2" value="automatik"/>
+            </choice>
+        </element>
+        <element choice="1" label="Fahrzeugtyp" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Kleinwagen" sequence="1" value="kleinwagen"/>
+                <element inactive_on_update="false" label="SUV" sequence="2" value="suv"/>
+                <element inactive_on_update="false" label="Limousine" sequence="3" value="limousine"/>
+                <element inactive_on_update="false" label="Kombi" sequence="4" value="kombi"/>
+                <element inactive_on_update="false" label="Cabrio" sequence="5" value="cabrio"/>
+            </choice>
+        </element>
+        <element label="Verfügbar bis" mandatory="true" max_length="40" name="verfugbar_bis" type="glide_date"/>
+        <element label="Verfügbar von" mandatory="true" max_length="40" name="verfugbar_von" type="glide_date"/>
+        <index name="index">
+            <element name="owner_id"/>
+        </index>
     </element>
 </database>

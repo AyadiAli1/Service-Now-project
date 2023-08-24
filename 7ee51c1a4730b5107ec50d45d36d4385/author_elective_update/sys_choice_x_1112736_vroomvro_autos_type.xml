@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="x_1112736_vroomvro_autos" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>x_1112736_vroomvro_autos</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-08-24 21:42:17</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+            <sys_update_name>sys_choice_x_1112736_vroomvro_autos_type</sys_update_name>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-08-24 21:42:17</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kleinwagen</label>
+            <language>en</language>
+            <name>x_1112736_vroomvro_autos</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-08-24 21:42:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2e7662e47f8f5107ec50d45d36d43fd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-08-24 21:42:23</sys_updated_on>
+            <value>kleinwagen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SUV</label>
+            <language>en</language>
+            <name>x_1112736_vroomvro_autos</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-08-24 21:42:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9f7662e47f8f5107ec50d45d36d4362</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-08-24 21:42:36</sys_updated_on>
+            <value>suv</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Limousine</label>
+            <language>en</language>
+            <name>x_1112736_vroomvro_autos</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-08-24 21:42:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1908662e47f8f5107ec50d45d36d4363</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-08-24 21:43:04</sys_updated_on>
+            <value>limousine</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kombi</label>
+            <language>en</language>
+            <name>x_1112736_vroomvro_autos</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-08-24 21:43:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c828262e47f8f5107ec50d45d36d4340</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-08-24 21:43:11</sys_updated_on>
+            <value>kombi</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cabrio</label>
+            <language>en</language>
+            <name>x_1112736_vroomvro_autos</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-08-24 21:43:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a28262e47f8f5107ec50d45d36d4341</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-08-24 21:43:22</sys_updated_on>
+            <value>cabrio</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -25,17 +25,17 @@
         <sys_created_by>lisa</sys_created_by>
         <sys_created_on>2023-08-24 14:05:33</sys_created_on>
         <sys_id>ff5ff0ae4734f5107ec50d45d36d4302</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Mieten</sys_name>
         <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
         <sys_policy/>
         <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_ff5ff0ae4734f5107ec50d45d36d4302</sys_update_name>
         <sys_updated_by>lisa</sys_updated_by>
-        <sys_updated_on>2023-08-24 14:05:56</sys_updated_on>
+        <sys_updated_on>2023-08-24 14:17:06</sys_updated_on>
         <table/>
-        <type>page</type>
-        <url/>
+        <type>url</type>
+        <url>/vv/?id=form&amp;table=x_1112736_vroomvro_buchung</url>
         <url_target/>
     </sp_rectangle_menu_item>
     <sys_translated_text action="delete_multiple" query="documentkey=ff5ff0ae4734f5107ec50d45d36d4302"/>

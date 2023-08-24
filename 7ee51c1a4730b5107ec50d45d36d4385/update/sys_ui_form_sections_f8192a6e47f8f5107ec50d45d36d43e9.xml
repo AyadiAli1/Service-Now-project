@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="f8192a6e47f8f5107ec50d45d36d43e9" sys_domain="global" table="x_1112736_vroomvro_buchung" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-08-24 21:47:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>74192a6e47f8f5107ec50d45d36d43ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1112736_vroomvro_buchung" name="x_1112736_vroomvro_buchung" sys_domain="global" view="Default view">f8192a6e47f8f5107ec50d45d36d43e9</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1112736_vroomvro_buchung" sys_domain="global" view="Default view">5bb3c0ea47fcb5107ec50d45d36d43c1</sys_ui_section>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-08-24 21:47:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-08-24 21:47:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0192a6e47f8f5107ec50d45d36d43ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1112736_vroomvro_buchung" name="x_1112736_vroomvro_buchung" sys_domain="global" view="Default view">f8192a6e47f8f5107ec50d45d36d43e9</sys_ui_form>
+            <sys_ui_section caption="Sonstiges (noch entfernen)" display_value="Sonstiges (noch entfernen)" name="x_1112736_vroomvro_buchung" sys_domain="global" view="Default view">38192a6e47f8f5107ec50d45d36d43e8</sys_ui_section>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-08-24 21:47:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1112736_vroomvro_buchung</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-08-24 21:47:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8192a6e47f8f5107ec50d45d36d43e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1112736_vroomvro_buchung</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f8192a6e47f8f5107ec50d45d36d43e9</sys_update_name>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-08-24 21:47:08</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

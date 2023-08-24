@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Vroom_Menu">cb7f335647fcb5107ec50d45d36d4385</application>
+        <assessment/>
+        <device_type/>
+        <filter table="sysapproval_approver">approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="approver" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Waiting for Approval</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sysapproval_approver</name>
+        <order>1000</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1112736_vroomvro.Admin,x_1112736_vroomvro.Vermieter</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>claudia</sys_created_by>
+        <sys_created_on>2023-08-24 14:19:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2dd149a24774f5107ec50d45d36d4311</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Waiting for Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+        <sys_update_name>sys_app_module_2dd149a24774f5107ec50d45d36d4311</sys_update_name>
+        <sys_updated_by>claudia</sys_updated_by>
+        <sys_updated_on>2023-08-24 14:25:28</sys_updated_on>
+        <timeline_page/>
+        <title>Waiting for Approval</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

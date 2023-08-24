@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function() {
+    /* widget controller */
+    var c = this;
+    c.uiAction = function(action) {
+        c.data.action = action;
+        c.server.update().then(function() {
+            c.data.action = undefined;
+        });
+    };
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.wrap { 
+  	margin: 0 auto 8rem auto;
+  	//padding-bottom: 15px;
+  	display: flex; 
+		flex-flow: row ; 
+  	width: 30%;
+}   
+
+.wrap_item { 
+		flex: 1;
+}
+
+
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>vv_profile_buttons</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+
+}]]></link>
+        <name>VV Profile Buttons</name>
+        <option_schema>[]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    /* populate the 'data' object */
+    /* e.g., data.table = $sp.getValue('table'); */
+    // Get table & sys_id
+/*
+	data.table = input.table || $sp.getParameter("table");
+    data.sys_id = input.sys_id || $sp.getParameter("sys_id");
+
+    // Valid GlideRecord
+    gr = new GlideRecord(data.table);
+    if (!gr.isValid())
+        return;
+
+    // Valid sys_id
+    if (!gr.get(data.sys_id))
+        return;
+
+    if (input && input.action) {
+        var action = input.action;
+
+        // If Incident table
+        if (data.table == 'incident') {
+        if (action == 'resolve') {
+        // Resolve Incident
+        gr.setValue('incident_state', 6);
+        gr.setValue('state', 6);
+        gr.setValue('resolved_by', gs.getUserID());
+        gr.update();
+        }
+        if (action == 'cancel') {
+        // Do something else
+        }
+        }
+    }
+		*/
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-08-24 14:27:49</sys_created_on>
+        <sys_id>5184c1a64774f5107ec50d45d36d4309</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>VV Profile Buttons</sys_name>
+        <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+        <sys_update_name>sp_widget_5184c1a64774f5107ec50d45d36d4309</sys_update_name>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-08-24 14:30:26</sys_updated_on>
+        <template><![CDATA[<div class="wrap">
+  <a class="btn btn-primary btn-lg wrap_item" href="/vv/?id=vv_booked" role="button">Meine Buchungen</a>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>
