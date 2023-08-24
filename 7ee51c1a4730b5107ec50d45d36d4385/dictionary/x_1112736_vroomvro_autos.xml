@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="63aa545e4730b5107ec50d45d36d43ad" label="Autos" max_length="40" name="x_1112736_vroomvro_autos" type="collection">
-        <element label="Kennzeichen" max_length="40" name="kennzeichen" type="string"/>
+        <element label="brand" max_length="40" name="brand" type="string"/>
+        <element label="color" max_length="40" name="color" type="string"/>
+        <element label="Const year" max_length="40" name="const_year" type="integer"/>
+        <element label="fuel" max_length="40" name="fuel" type="string"/>
+        <element label="number_plate" max_length="40" name="kennzeichen" type="string"/>
+        <element label="Km number" max_length="40" name="km_number" type="float"/>
+        <element label="model" max_length="40" name="model" type="string"/>
+        <element label="picture" max_length="40" name="picture" type="string"/>
+        <element label="Seat number" max_length="40" name="seat_number" type="integer"/>
+        <element label="transmission" max_length="40" name="transmission" type="string"/>
+        <element label="type" max_length="40" name="type" type="string"/>
     </element>
 </database>
