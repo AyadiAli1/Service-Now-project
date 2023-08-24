@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>vv_homepage</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-08-24 10:55:57</sys_created_on>
+        <sys_id>99d318624770f5107ec50d45d36d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vv_homepage</sys_name>
+        <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+        <sys_update_name>sp_page_99d318624770f5107ec50d45d36d4345</sys_update_name>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-08-24 10:55:57</sys_updated_on>
+        <title>Homepage</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=99d318624770f5107ec50d45d36d4345"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_page_99d318624770f5107ec50d45d36d4345</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><id>vv_homepage</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>alice</sys_created_by><sys_created_on>2023-08-24 10:55:57</sys_created_on><sys_id>99d318624770f5107ec50d45d36d4345</sys_id><sys_mod_count>0</sys_mod_count><sys_name>vv_homepage</sys_name><sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package><sys_policy/><sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope><sys_update_name>sp_page_99d318624770f5107ec50d45d36d4345</sys_update_name><sys_updated_by>alice</sys_updated_by><sys_updated_on>2023-08-24 10:55:57</sys_updated_on><title>Homepage</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=99d318624770f5107ec50d45d36d4345"/></record_update>]]></payload>
+        <payload_hash>1751768746</payload_hash>
+        <record_name>vv_homepage</record_name>
+        <reverted_from/>
+        <source>860410624770f5107ec50d45d36d4379</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-08-24 10:55:57</sys_created_on>
+        <sys_id>820410624770f5107ec50d45d36d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a272fc94a0000001</sys_recorded_at>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-08-24 10:55:57</sys_updated_on>
+        <type>Page</type>
+        <update_guid>ca041062d170f5109774664a739ab87a</update_guid>
+        <update_guid_history>ca041062d170f5109774664a739ab87a:1751768746</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="vv_homepage">ed94d8a24770f5107ec50d45d36d43b6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-08-24 10:58:23</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>396e13e875604453a971d6cbcc515f69</sys_id>
+        <sys_metadata>99d318624770f5107ec50d45d36d4345</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vv_homepage</sys_name>
+        <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+        <sys_scope_delete display_value="">0883df704d6747cd9d980f39716ff8d1</sys_scope_delete>
+        <sys_update_name>sp_page_99d318624770f5107ec50d45d36d4345</sys_update_name>
+        <sys_update_version display_value="sp_page_99d318624770f5107ec50d45d36d4345">820410624770f5107ec50d45d36d437b</sys_update_version>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-08-24 10:58:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
