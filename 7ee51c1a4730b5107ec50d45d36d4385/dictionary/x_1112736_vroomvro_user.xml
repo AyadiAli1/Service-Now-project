@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="62e3ebde47f8b5107ec50d45d36d4382" label="user" max_length="40" name="x_1112736_vroomvro_user" type="collection"/>
+    <element db_object_id="62e3ebde47f8b5107ec50d45d36d4382" label="User" max_length="40" name="x_1112736_vroomvro_user" type="collection">
+        <element label="Birthdate" mandatory="true" max_length="40" name="birthdate" type="glide_date"/>
+        <element label="First name" mandatory="true" max_length="40" name="first_name" type="string"/>
+        <element label="Last name" mandatory="true" max_length="40" name="last_name" type="string"/>
+        <element label="License" mandatory="true" max_length="40" name="license" type="string"/>
+        <element label="Mail" mandatory="true" max_length="40" name="mail" type="string"/>
+        <element label="Password" mandatory="true" max_length="40" name="password" type="string"/>
+        <element label="Profile picture" max_length="40" name="profile_picture" type="user_image"/>
+        <element choice="1" label="Role" mandatory="true" max_length="40" name="role" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Mieter" value="mieter"/>
+                <element inactive_on_update="false" label="Vermieter" value="vermieter"/>
+            </choice>
+        </element>
+        <element label="Tel number" mandatory="true" max_length="40" name="tel_number" type="integer"/>
+    </element>
 </database>
