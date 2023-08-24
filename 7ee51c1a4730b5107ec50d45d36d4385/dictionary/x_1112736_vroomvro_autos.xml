@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="63aa545e4730b5107ec50d45d36d43ad" label="Autos" max_length="40" name="x_1112736_vroomvro_autos" type="collection">
-        <element label="Kennzeichen" max_length="40" name="kennzeichen" type="string"/>
+    <element db_object_id="63aa545e4730b5107ec50d45d36d43ad" label="Auto" max_length="40" name="x_1112736_vroomvro_autos" type="collection">
+        <element label="Brand" mandatory="true" max_length="40" name="brand" type="string"/>
+        <element label="Color" mandatory="true" max_length="40" name="color" type="string"/>
+        <element label="Const year" mandatory="true" max_length="40" name="const_year" type="integer"/>
+        <element label="Fuel" mandatory="true" max_length="40" name="fuel" type="string"/>
+        <element label="number_plate" mandatory="true" max_length="40" name="kennzeichen" type="string"/>
+        <element label="Km number" mandatory="true" max_length="40" name="km_number" type="float"/>
+        <element label="Model" mandatory="true" max_length="40" name="model" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Owner ID" max_length="32" name="owner_id" reference="x_1112736_vroomvro_user" type="reference"/>
+        <element label="Picture" mandatory="true" max_length="40" name="picture" type="user_image"/>
+        <element label="Seat number" mandatory="true" max_length="40" name="seat_number" type="integer"/>
+        <element label="Transmission" mandatory="true" max_length="40" name="transmission" type="string"/>
+        <element label="Type" mandatory="true" max_length="40" name="type" type="string"/>
+        <index name="index">
+            <element name="owner_id"/>
+        </index>
     </element>
 </database>

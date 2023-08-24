@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="b">cb7f335647fcb5107ec50d45d36d4385</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Buchungs</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1112736_vroomvro_buchung</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1112736_vroomvro.buchung_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>bryan</sys_created_by>
+        <sys_created_on>2023-08-24 09:26:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4b7f335647fcb5107ec50d45d36d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Buchungs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+        <sys_update_name>sys_app_module_4b7f335647fcb5107ec50d45d36d4388</sys_update_name>
+        <sys_updated_by>bryan</sys_updated_by>
+        <sys_updated_on>2023-08-24 09:26:11</sys_updated_on>
+        <timeline_page/>
+        <title>Buchungs</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

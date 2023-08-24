@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="54feeb5e477cb5107ec50d45d36d43e0" label="Buchung" max_length="40" name="x_1112736_vroomvro_buchung" type="collection">
+        <element label="Car ID" max_length="32" name="car_id" reference="x_1112736_vroomvro_autos" type="reference"/>
+        <element label="Final Costs" max_length="40" name="final_costs" type="integer"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="integer" use_dynamic_default="true"/>
+        <element choice="1" default="1" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="3"/>
+                <element inactive_on_update="false" label="Booked" value="10"/>
+                <element inactive_on_update="false" label="Draft" value="1"/>
+                <element inactive_on_update="false" label="Rejected" value="-1"/>
+                <element inactive_on_update="false" label="Waiting for Approval" value="2"/>
+            </choice>
+        </element>
+        <element label="Timestamp" max_length="40" name="timestamp" type="glide_date_time"/>
+        <element label="Time End" max_length="40" name="time_end" type="glide_date_time"/>
+        <element label="Time Start" max_length="40" name="time_start" type="glide_date_time"/>
+        <element label="User ID" max_length="32" name="user_id" reference="x_1112736_vroomvro_user" type="reference"/>
+        <index name="index">
+            <element name="car_id"/>
+        </index>
+        <index name="index2">
+            <element name="user_id"/>
+        </index>
+    </element>
+</database>

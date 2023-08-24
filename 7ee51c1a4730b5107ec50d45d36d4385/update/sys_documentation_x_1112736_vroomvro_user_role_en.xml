@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="kennzeichen" label="number_plate" language="en" table="x_1112736_vroomvro_autos">
+    <sys_documentation element="role" label="Role" language="en" table="x_1112736_vroomvro_user">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>kennzeichen</element>
+            <element>role</element>
             <help/>
             <hint/>
-            <label>number_plate</label>
+            <label>Role</label>
             <language>en</language>
-            <name>x_1112736_vroomvro_autos</name>
-            <plural>number_plates</plural>
+            <name>x_1112736_vroomvro_user</name>
+            <plural>Roles</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-23 16:47:26</sys_created_on>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>number_plate</sys_name>
+            <sys_created_on>2023-08-24 09:43:41</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Role</sys_name>
             <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
             <sys_policy/>
             <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
-            <sys_update_name>sys_documentation_x_1112736_vroomvro_autos_kennzeichen_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1112736_vroomvro_user_role_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-24 07:25:16</sys_updated_on>
+            <sys_updated_on>2023-08-24 09:43:41</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
