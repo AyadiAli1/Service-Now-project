@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="54feeb5e477cb5107ec50d45d36d43e0" label="Buchung" max_length="40" name="x_1112736_vroomvro_buchung" type="collection">
-        <element label="Car" mandatory="true" max_length="32" name="car_id" reference="x_1112736_vroomvro_autos" reference_qual="javascript: &quot;verfugbar_von&lt;=javascript:gs.dateGenerate('&quot;+current.time_start+&quot;','start')^verfugbar_bis&gt;=javascript:gs.dateGenerate('&quot;+current.time_end+&quot;','end')&quot;" type="reference" use_reference_qualifier="advanced"/>
-        <element label="Gesamtpreis" max_length="40" name="final_costs" read_only="true" type="float"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var start  = new GlideDate();&#13;&#10;&#9;start.setValue(current.time_start);&#13;&#10;&#9;&#13;&#10;&#9;var end  = new GlideDate();&#13;&#10;&#9;end.setValue(current.time_end);&#13;&#10;&#9;&#13;&#10;&#9;var sub = new GlideDate.subtract(start,end);&#13;&#10;&#9;var dayPart = sub.toString().split(&quot; &quot;)[0].split(&quot;-&quot;)[2]&#13;&#10;&#13;&#10;&#9;&#13;&#10;&#9;return parseInt(dayPart,10);  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Buchungstage" max_length="40" name="buchungstage" read_only="true" type="integer" virtual="true"/>
+        <element label="Fahrzeug" mandatory="true" max_length="32" name="car_id" reference="x_1112736_vroomvro_autos" reference_qual="javascript: &quot;verfugbar_von&lt;=javascript:gs.dateGenerate('&quot;+current.time_start+&quot;','start')^verfugbar_bis&gt;=javascript:gs.dateGenerate('&quot;+current.time_end+&quot;','end')&quot;" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Gesamtpreis" max_length="40" name="final_costs" read_only="true" type="float" virtual="true"/>
         <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Buchungsnummer" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
-        <element choice="1" default="1" label="Status" max_length="40" name="state" read_only="true" type="string">
+        <element choice="1" default="2" label="Status" max_length="40" name="state" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Approved" value="3"/>
                 <element inactive_on_update="false" label="Booked" value="10"/>

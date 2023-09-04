@@ -4,13 +4,13 @@
             <element>time_start</element>
             <position>0</position>
             <sys_created_by>claudia</sys_created_by>
-            <sys_created_on>2023-08-24 21:47:08</sys_created_on>
-            <sys_id>30196a6e47f8f5107ec50d45d36d4341</sys_id>
+            <sys_created_on>2023-08-25 11:12:52</sys_created_on>
+            <sys_id>6b712936473839107ec50d45d36d4327</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1112736_vroomvro_buchung" sys_domain="global" view="Default view">5bb3c0ea47fcb5107ec50d45d36d43c1</sys_ui_section>
             <sys_updated_by>claudia</sys_updated_by>
-            <sys_updated_on>2023-08-24 21:47:08</sys_updated_on>
+            <sys_updated_on>2023-08-25 11:12:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>time_end</element>
             <position>1</position>
             <sys_created_by>claudia</sys_created_by>
-            <sys_created_on>2023-08-24 21:47:08</sys_created_on>
-            <sys_id>38196a6e47f8f5107ec50d45d36d4341</sys_id>
+            <sys_created_on>2023-08-25 11:12:52</sys_created_on>
+            <sys_id>63712936473839107ec50d45d36d4328</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1112736_vroomvro_buchung" sys_domain="global" view="Default view">5bb3c0ea47fcb5107ec50d45d36d43c1</sys_ui_section>
             <sys_updated_by>claudia</sys_updated_by>
-            <sys_updated_on>2023-08-24 21:47:08</sys_updated_on>
+            <sys_updated_on>2023-08-25 11:12:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>car_id</element>
             <position>2</position>
             <sys_created_by>claudia</sys_created_by>
-            <sys_created_on>2023-08-24 21:47:08</sys_created_on>
-            <sys_id>3c196a6e47f8f5107ec50d45d36d4341</sys_id>
+            <sys_created_on>2023-08-25 11:12:52</sys_created_on>
+            <sys_id>67712936473839107ec50d45d36d4328</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1112736_vroomvro_buchung" sys_domain="global" view="Default view">5bb3c0ea47fcb5107ec50d45d36d43c1</sys_ui_section>
             <sys_updated_by>claudia</sys_updated_by>
-            <sys_updated_on>2023-08-24 21:47:08</sys_updated_on>
+            <sys_updated_on>2023-08-25 11:12:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>claudia</sys_created_by>
-            <sys_created_on>2023-08-24 21:47:08</sys_created_on>
-            <sys_id>30196a6e47f8f5107ec50d45d36d4342</sys_id>
+            <sys_created_on>2023-08-25 11:12:52</sys_created_on>
+            <sys_id>6b712936473839107ec50d45d36d4328</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1112736_vroomvro_buchung" sys_domain="global" view="Default view">5bb3c0ea47fcb5107ec50d45d36d43c1</sys_ui_section>
             <sys_updated_by>claudia</sys_updated_by>
-            <sys_updated_on>2023-08-24 21:47:08</sys_updated_on>
+            <sys_updated_on>2023-08-25 11:12:52</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,41 @@
             <element>final_costs</element>
             <position>4</position>
             <sys_created_by>claudia</sys_created_by>
-            <sys_created_on>2023-08-24 21:47:08</sys_created_on>
-            <sys_id>34196a6e47f8f5107ec50d45d36d4342</sys_id>
+            <sys_created_on>2023-08-25 11:12:52</sys_created_on>
+            <sys_id>6f712936473839107ec50d45d36d4328</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1112736_vroomvro_buchung" sys_domain="global" view="Default view">5bb3c0ea47fcb5107ec50d45d36d43c1</sys_ui_section>
             <sys_updated_by>claudia</sys_updated_by>
-            <sys_updated_on>2023-08-24 21:47:08</sys_updated_on>
+            <sys_updated_on>2023-08-25 11:12:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>car_id.kaution</element>
+            <position>5</position>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-08-25 11:12:52</sys_created_on>
+            <sys_id>63712936473839107ec50d45d36d4329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1112736_vroomvro_buchung" sys_domain="global" view="Default view">5bb3c0ea47fcb5107ec50d45d36d43c1</sys_ui_section>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-08-25 11:12:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>car_id.preis_pro_tag</element>
+            <position>6</position>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-08-25 11:12:52</sys_created_on>
+            <sys_id>67712936473839107ec50d45d36d4329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1112736_vroomvro_buchung" sys_domain="global" view="Default view">5bb3c0ea47fcb5107ec50d45d36d43c1</sys_ui_section>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-08-25 11:12:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

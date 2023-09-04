@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>model,brand,transmission,type,fuel,kaution,preis_pro_tag</field_list>
+        <filter/>
+        <glyph>car</glyph>
+        <id/>
+        <maximum_entries>20</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e4af6c7e47f039107ec50d45d36d43d4</sp_column>
+        <sp_page/>
+        <sp_widget display_value="vv_autoliste">ba6fec7e47f039107ec50d45d36d43a1</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-08-25 07:35:04</sys_created_on>
+        <sys_id>19afa0be47f039107ec50d45d36d438b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Unsere Autos</sys_name>
+        <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+        <sys_update_name>sp_instance_table_19afa0be47f039107ec50d45d36d438b</sys_update_name>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-08-25 07:49:13</sys_updated_on>
+        <table>x_1112736_vroomvro_autos</table>
+        <title>Unsere Autos</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=19afa0be47f039107ec50d45d36d438b"/>
+</record_update>

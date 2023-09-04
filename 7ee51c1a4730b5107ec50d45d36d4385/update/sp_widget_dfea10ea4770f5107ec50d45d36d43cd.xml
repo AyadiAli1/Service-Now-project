@@ -12,6 +12,7 @@
 	color: #00000;
 }
 
+
 #homepage-search {
   .aisearch {
     --classicsponlydonotuse--rem-multipy: 1.6;
@@ -42,17 +43,17 @@ else
         <sys_created_by>lisa</sys_created_by>
         <sys_created_on>2023-08-24 11:26:05</sys_created_on>
         <sys_id>dfea10ea4770f5107ec50d45d36d43cd</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>VV Homepage Widget</sys_name>
         <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
         <sys_policy/>
         <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
         <sys_update_name>sp_widget_dfea10ea4770f5107ec50d45d36d43cd</sys_update_name>
-        <sys_updated_by>lisa</sys_updated_by>
-        <sys_updated_on>2023-08-24 12:32:25</sys_updated_on>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-08-25 11:50:30</sys_updated_on>
         <template><![CDATA[<div id="homepage-search" class="hidden-xs wrapper-xl">
   <div class="wrapper-xl">
-    <h1 class="text-center text-4x m-b-lg sp-tagline-color" ng-bind="data.greeting"></h1>
+    <h1 class="text-center text-3x m-b-lg sp-tagline-color" ng-bind="data.greeting"></h1>
   	<div ng-if="options.short_description" class="text-center h4 m-b-lg sp-tagline-color" ng-bind="options.short_description"></div>
   </div>
 </div>]]></template>

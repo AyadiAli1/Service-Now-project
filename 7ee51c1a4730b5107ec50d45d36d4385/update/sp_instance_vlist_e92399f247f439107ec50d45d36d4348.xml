@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>warning</color>
+        <css/>
+        <display_field>number</display_field>
+        <field_list/>
+        <filter table="x_1112736_vroomvro_buchung">time_end&gt;=javascript:gs.beginningOfToday()^user_idDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="time_end" goto="false" newquery="false" operator="&gt;=" or="false" value="javascript:gs.beginningOfToday()"/>
+            <item endquery="false" field="user_id" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        </filter>
+        <glyph>car</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>2</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">59f874664734f5107ec50d45d36d4312</sp_column>
+        <sp_page/>
+        <sp_widget display_value="vv_copy_simplelist">1b4255b247f439107ec50d45d36d43d9</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-08-25 10:10:11</sys_created_on>
+        <sys_id>e92399f247f439107ec50d45d36d4348</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+        <sys_update_name>sp_instance_vlist_e92399f247f439107ec50d45d36d4348</sys_update_name>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-08-25 10:11:44</sys_updated_on>
+        <table>x_1112736_vroomvro_buchung</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "car_id,time_start,time_end,state",
+		"displayValue": "car_id,time_start,time_end,state"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=e92399f247f439107ec50d45d36d4348"/>
+</record_update>

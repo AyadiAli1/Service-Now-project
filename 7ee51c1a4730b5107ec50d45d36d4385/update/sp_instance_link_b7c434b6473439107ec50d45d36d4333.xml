@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b9c470b6473439107ec50d45d36d43b4</sp_column>
+        <sp_page/>
+        <sp_widget display_value="vv_faq_question">2c13f8f2473439107ec50d45d36d4380</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-08-25 07:57:39</sys_created_on>
+        <sys_id>b7c434b6473439107ec50d45d36d4333</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>What's your favorite candy?</sys_name>
+        <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+        <sys_update_name>sp_instance_link_b7c434b6473439107ec50d45d36d4333</sys_update_name>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-08-25 08:01:48</sys_updated_on>
+        <title>What's your favorite candy?</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=b7c434b6473439107ec50d45d36d4333"/>
+</record_update>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">8886613e473839107ec50d45d36d43b7</sp_column>
+        <sp_widget display_value="vv_autoliste_header">2591b072473439107ec50d45d36d4352</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-08-25 07:44:51</sys_created_on>
+        <sys_id>dce17c72473439107ec50d45d36d4368</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+        <sys_update_name>sp_instance_ais_dce17c72473439107ec50d45d36d4368</sys_update_name>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-08-25 11:34:48</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=dce17c72473439107ec50d45d36d4368"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_instance_ais_dce17c72473439107ec50d45d36d4368</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais"><sp_instance_ais action="INSERT_OR_UPDATE"><active>true</active><ai_search_source_filter/><class_name/><color>default</color><css/><disable_all_suggestions>false</disable_all_suggestions><glyph/><id/><order>1</order><placeholder/><roles/><search_application/><search_results_configuration/><short_description/><size>md</size><sp_column display_value="1">8886613e473839107ec50d45d36d43b7</sp_column><sp_widget display_value="vv_autoliste_header">2591b072473439107ec50d45d36d4352</sp_widget><spell_check_font_size>xl</spell_check_font_size><sys_class_name>sp_instance_ais</sys_class_name><sys_created_by>alice</sys_created_by><sys_created_on>2023-08-25 07:44:51</sys_created_on><sys_id>dce17c72473439107ec50d45d36d4368</sys_id><sys_mod_count>4</sys_mod_count><sys_name/><sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package><sys_policy/><sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope><sys_update_name>sp_instance_ais_dce17c72473439107ec50d45d36d4368</sys_update_name><sys_updated_by>alice</sys_updated_by><sys_updated_on>2023-08-25 11:34:48</sys_updated_on><title/><url/><widget_parameters/></sp_instance_ais><sys_translated_text action="delete_multiple" query="documentkey=dce17c72473439107ec50d45d36d4368"/></record_update>]]></payload>
+        <payload_hash>-668934254</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>e56750a64770f5107ec50d45d36d431d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-08-25 11:34:49</sys_created_on>
+        <sys_id>8586213e473839107ec50d45d36d4394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a2c79b85f0000001</sys_recorded_at>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-08-25 11:34:49</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>8d86213e5f3839106517178cc52fdc93</update_guid>
+        <update_guid_history>8d86213e5f3839106517178cc52fdc93:-668934254,4276213ec238391083a42bb679c57252:-207376742,4e76edfaa638391006ae64ddd17ed5ff:1397193894,8136e5fa2f3839106758ba359d8fe2d7:678138277,94e17c72a1343910c7a28a5a5c65316a:960280518</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ef86653e473839107ec50d45d36d434b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-08-25 11:34:59</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>6a2b3512e6ff4c329c14ba0d8bbdb9c4</sys_id>
+        <sys_metadata>dce17c72473439107ec50d45d36d4368</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+        <sys_scope_delete display_value="">0883df704d6747cd9d980f39716ff8d1</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_dce17c72473439107ec50d45d36d4368</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_dce17c72473439107ec50d45d36d4368">8586213e473839107ec50d45d36d4394</sys_update_version>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-08-25 11:34:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

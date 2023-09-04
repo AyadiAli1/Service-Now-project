@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
-        <css_variables>$brand-primary:#74b4ed;
-$body-bg:#f5f5f5;
+        <css_variables>$brand-primary:#cf001a;
+$body-bg:#ffffff;
 $state-success-text:#1e4335;
 $sp-homepage-bg:#fff;
-$sp-navbar-divider-color:#f29f33;
+$sp-navbar-divider-color:#ff0404;
 $text-color:#2e2e2e;
 $sp-logo-margin-y:.3rem;
 $navbar-inverse-link-hover-color:#ffffff;
-$panel-bg:#fff;
-$brand-success:#1a80be;
+$panel-bg:#ffffff;
+$brand-success:#ffffff;
 $navbar-inverse-bg:#000000;
-$brand-warning:#DFD139;
-$brand-danger:#C83C36;
+$brand-warning:#181d1f;
+$brand-danger:#cf001a;
 $sp-tagline-color:#ffffff;
 $navbar-inverse-link-color:#ffffff;
-$brand-info:#a9d6f6;
-$link-color:#4a948a;
+$brand-info:#264262;
+$link-color:#ffffff;
 $sp-logo-margin-x:1rem;
-$btn-default-bg:#fff;
-$text-muted:#666666;
+$btn-default-bg:#ffffff;
+$text-muted:#4a4c4e;
 </css_variables>
         <default>false</default>
         <enable_ais>false</enable_ais>
@@ -39,19 +39,19 @@ $text-muted:#666666;
         <search_application/>
         <search_results_configuration/>
         <sp_chat_queue/>
-        <sp_rectangle_menu display_value="VV Header Menu">bab8902a4770f5107ec50d45d36d43b6</sp_rectangle_menu>
+        <sp_rectangle_menu display_value="SP Header Menu">d150fd31cb10020000f8d856634c9ce6</sp_rectangle_menu>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>lisa</sys_created_by>
         <sys_created_on>2023-08-24 11:14:40</sys_created_on>
         <sys_id>7f0890e64770f5107ec50d45d36d4395</sys_id>
-        <sys_mod_count>61</sys_mod_count>
+        <sys_mod_count>123</sys_mod_count>
         <sys_name>VV_Design</sys_name>
         <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
         <sys_policy/>
         <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
         <sys_update_name>sp_portal_7f0890e64770f5107ec50d45d36d4395</sys_update_name>
         <sys_updated_by>lisa</sys_updated_by>
-        <sys_updated_on>2023-08-24 14:53:23</sys_updated_on>
+        <sys_updated_on>2023-08-25 12:18:26</sys_updated_on>
         <theme display_value="La Jolla">a7a6e78277002300a6e592718a10617a</theme>
         <title>VV_Design</title>
         <ts_index_group/>

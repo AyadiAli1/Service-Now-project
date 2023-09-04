@@ -19,12 +19,24 @@
 		flex-flow: row wrap; 
     gap: 10px;
   	width: 75%;
+ 
 }   
 
 .wrap_item { 
 		flex: 1;
+  //background-color: black;
+  border: none;
+  cursor: pointer;
+  padding: 20px 0;
+	font-family: Calibri;
+  font-weight: bold;
+  font-size: 16pt;
 }
 
+
+.wrap_item:hover {
+  background-color: rgba(0, 0, 0, 0.5); /* Dunklere Hintergrundfarbe beim Hover */
+}
 
 </css>
         <data_table>sp_instance</data_table>
@@ -83,17 +95,17 @@
         <sys_created_by>lisa</sys_created_by>
         <sys_created_on>2023-08-24 11:37:40</sys_created_on>
         <sys_id>b3dc9cae4770f5107ec50d45d36d43d1</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>79</sys_mod_count>
         <sys_name>VV Home Buttons</sys_name>
         <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
         <sys_policy/>
         <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
         <sys_update_name>sp_widget_b3dc9cae4770f5107ec50d45d36d43d1</sys_update_name>
-        <sys_updated_by>lisa</sys_updated_by>
-        <sys_updated_on>2023-08-24 13:27:55</sys_updated_on>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-08-25 09:20:36</sys_updated_on>
         <template><![CDATA[<div class="wrap">
-  <a class="btn btn-primary btn-lg wrap_item" href="/vv/?id=form&table=x_1112736_vroomvro_buchung" role="button">Mieten</a>
-  <a class="btn btn-primary btn-lg wrap_item" href="/vv/?id=form&table=x_1112736_vroomvro_autos" role="button">Vermieten</a>
+  <a class="btn btn-warning btn-lg wrap_item" href="/vv/?id=form&table=x_1112736_vroomvro_buchung" role="button">Mieten</a>
+  <a class="btn btn-warning btn-lg wrap_item" href="/vv/?id=form&table=x_1112736_vroomvro_autos" role="button">Vermieten</a>
 </div>
 ]]></template>
     </sp_widget>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>warning</color>
+        <css/>
+        <display_field>car_id</display_field>
+        <field_list/>
+        <filter table="x_1112736_vroomvro_buchung">time_end&lt;=javascript:gs.endOfToday()^user_idDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="time_end" goto="false" newquery="false" operator="&lt;=" or="false" value="javascript:gs.endOfToday()"/>
+            <item endquery="false" field="user_id" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        </filter>
+        <glyph>car</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>4</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">59f874664734f5107ec50d45d36d4312</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-08-24 14:18:02</sys_created_on>
+        <sys_id>5a4281e24774f5107ec50d45d36d43a7</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+        <sys_update_name>sp_instance_vlist_5a4281e24774f5107ec50d45d36d43a7</sys_update_name>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-08-25 09:32:09</sys_updated_on>
+        <table>x_1112736_vroomvro_buchung</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "time_start,time_end",
+		"displayValue": "time_start,time_end"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "c4e470b6473439107ec50d45d36d43c9",
+		"displayValue": "vv_uebersicht"
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=5a4281e24774f5107ec50d45d36d43a7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_instance_vlist_5a4281e24774f5107ec50d45d36d43a7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;&lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;warning&lt;/color&gt;&lt;css/&gt;&lt;display_field&gt;car_id&lt;/display_field&gt;&lt;field_list/&gt;&lt;filter table="x_1112736_vroomvro_buchung"&gt;time_end&amp;lt;=javascript:gs.endOfToday()^user_idDYNAMIC90d1921e5f510100a9ad2572f2b477fe&lt;item endquery="false" field="time_end" goto="false" newquery="false" operator="&amp;lt;=" or="false" value="javascript:gs.endOfToday()"/&gt;&lt;item endquery="false" field="user_id" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/&gt;&lt;/filter&gt;&lt;glyph&gt;car&lt;/glyph&gt;&lt;id/&gt;&lt;maximum_entries&gt;5&lt;/maximum_entries&gt;&lt;order&gt;4&lt;/order&gt;&lt;order_by/&gt;&lt;order_direction&gt;asc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;59f874664734f5107ec50d45d36d4312&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Simple List"&gt;5b255672cb03020000f8d856634c9c28&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alice&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-24 14:18:02&lt;/sys_created_on&gt;&lt;sys_id&gt;5a4281e24774f5107ec50d45d36d43a7&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="VroomVroom" source="x_1112736_vroomvro"&gt;7ee51c1a4730b5107ec50d45d36d4385&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="VroomVroom"&gt;7ee51c1a4730b5107ec50d45d36d4385&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_vlist_5a4281e24774f5107ec50d45d36d43a7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lisa&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-25 09:32:09&lt;/sys_updated_on&gt;&lt;table&gt;x_1112736_vroomvro_buchung&lt;/table&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "time_start,time_end",
+		"displayValue": "time_start,time_end"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "c4e470b6473439107ec50d45d36d43c9",
+		"displayValue": "vv_uebersicht"
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_vlist&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=5a4281e24774f5107ec50d45d36d43a7"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>676419479</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>e56750a64770f5107ec50d45d36d431d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-08-25 09:32:09</sys_created_on>
+        <sys_id>107a813647b439107ec50d45d36d435b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a2c096c760000001</sys_recorded_at>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-08-25 09:32:09</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>187a813693b43910e63cc871de6f795a</update_guid>
+        <update_guid_history>187a813693b43910e63cc871de6f795a:676419479,c8e8cd3245b439104b5400a264cd4c14:-531049902,35650de6ef74f510156b41c90344623d:1753551540,f8d385663d74f51052477ba7afcfbe64:-491127216,8f4389267274f5106c5346f8a3b6bd36:1379516815,d5f241265a74f510dff9a3be0256c1a4:458037457,b5b249e28e74f51057aadf0fe5d33ac9:1608847687,765205e20474f5105d6100e6f201249d:710709910,415281e2d474f510eaa0215c6b52b50f:-1056994281,164281e23d74f5108ef2bf350efd4da9:710709910</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">20ca493647b439107ec50d45d36d4394</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-08-25 09:33:32</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>21f4f8703f26410e9047e477a11e4c44</sys_id>
+        <sys_metadata>5a4281e24774f5107ec50d45d36d43a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="VroomVroom" source="x_1112736_vroomvro">7ee51c1a4730b5107ec50d45d36d4385</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="VroomVroom">7ee51c1a4730b5107ec50d45d36d4385</sys_scope>
+        <sys_scope_delete display_value="">0883df704d6747cd9d980f39716ff8d1</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_5a4281e24774f5107ec50d45d36d43a7</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_5a4281e24774f5107ec50d45d36d43a7">107a813647b439107ec50d45d36d435b</sys_update_version>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-08-25 09:33:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
